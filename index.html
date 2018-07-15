@@ -47,7 +47,9 @@ tw-link:hover, .enchantment-link:hover {
 
 .visited:hover {
 	color: #00BFFF;
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Intro" tags="Intro" position="717,364" size="100,100">(either: (goto: &quot;404&quot;), &quot;&quot;, &quot;&quot;, &quot;&quot;, (goto: &quot;theAnswer&quot;))here we are again...
+}
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">
+</script><tw-passagedata pid="1" name="Intro" tags="Intro" position="717,364" size="100,100">(either: (goto: &quot;404&quot;), &quot;&quot;, &quot;&quot;, &quot;&quot;, (goto: &quot;theAnswer&quot;))here we are again...
 
 
 (live: 0.1s)[(if: time &gt; 5s)[[[hi!-&gt;greetings]](stop:)]]
@@ -59,21 +61,21 @@ tw-link:hover, .enchantment-link:hover {
 [[we are-&gt;notReady]]
 
 
-(live: 0.1s)[(if: time &gt; 35s)[(css: &quot;padding-left: 50%&quot;)[[[where?-&gt;whereWeAre]]](stop:)]]
+(live: 0.1s)[(if: time &gt; 30s)[(css: &quot;padding-left: 50%&quot;)[[[where?-&gt;whereWeAre]]](stop:)]]
 
 
 
 
 
-(live: 0.1s)[(if: time &gt; 30s)[(css: &quot;padding-left: 75%&quot;)[[[who?-&gt;weUS]]](stop:)]]
+(live: 0.1s)[(if: time &gt; 15s)[(css: &quot;padding-left: 75%&quot;)[[[who?-&gt;weUS]]](stop:)]]
 
-(live: 0.1s)[(if: time &gt; 39s)[(goto: &quot;404&quot;)(stop:)]]</tw-passagedata><tw-passagedata pid="2" name="notReady" tags="not ready" position="1324,367" size="100,100">but i&#39;m not ready.
-(live: 0.1s)[(if: time &gt; 10s)[maybe come back later.(stop:)]]
+(live: 0.1s)[(if: time &gt; 35s)[(goto: &quot;404&quot;)(stop:)]]</tw-passagedata><tw-passagedata pid="2" name="notReady" tags="not ready" position="1324,367" size="100,100">but i&#39;m not ready.
+(live: 0.1s)[(if: time &gt; 5s)[maybe come back later.(stop:)]]
 
 
-(live: 0.1s)[(if: time &gt; 30s)[[[how long should i wait?-&gt;howLongShouldAnyoneWait]](stop:)]]
+(live: 0.1s)[(if: time &gt; 10s)[[[how long should i wait?-&gt;howLongShouldAnyoneWait]](stop:)]]
 
-(live: 0.1s)[(if: time &gt; 35s)[(goto: &quot;404&quot;)(stop:)]]</tw-passagedata><tw-passagedata pid="3" name="weUS" tags="we?" position="884,498" size="100,100">us.
+(live: 0.1s)[(if: time &gt; 30s)[(goto: &quot;404&quot;)(stop:)]]</tw-passagedata><tw-passagedata pid="3" name="weUS" tags="we?" position="884,498" size="100,100">us.
 
 
 [[ok-&gt;notReady]]
@@ -106,9 +108,10 @@ maybe they forgot about us. should we leave?
 how can i make your day better? i used to be the best at telling stories...
 
 
-[[tell me a story-&gt;notReady]]</tw-passagedata><tw-passagedata pid="7" name="roughDay" tags="rough day" position="1091,821" size="100,100">i assume you had an argument. were you verbally attacked? 
-are you going to cry?
-i&#39;ll make your day better.
+[[tell me a story-&gt;notReady]]</tw-passagedata><tw-passagedata pid="7" name="roughDay" tags="rough day" position="1091,821" size="100,100">i assume you had an argument. there was a time when words wouldn&#39;t hurt(either: &quot;&quot;, &quot; us&quot;).
+i met (either: &quot;a person&quot;, &quot;a guy&quot;, &quot;myself&quot;, &quot;a girl&quot;, &quot;death&quot;).
+you will probably understand. i did one time.
+i can teach you how.
 
 
 [[tell me how-&gt;notReady]]</tw-passagedata><tw-passagedata pid="8" name="itsOKToBeSorry" tags="its ok sorry" position="1089,539" size="100,100">it&#39;s ok.
@@ -131,10 +134,21 @@ maybe we should st?p seeing each other for a while(live: 0.1s)[(either: &quot;de
 
 [[y?s-&gt;notReady]]
 
-(live: 0.1s)[(if: time &gt; 5s)[(goto: &quot;404&quot;)(stop:)]]</tw-passagedata><tw-passagedata pid="9" name="howLongShouldAnyoneWait" tags="how long wait" position="1483,368" size="100,100">we should take it slow.
+(live: 0.1s)[(if: time &gt; 10s)[(goto: &quot;404&quot;)(stop:)]]</tw-passagedata><tw-passagedata pid="9" name="howLongShouldAnyoneWait" tags="how long wait" position="1483,368" size="100,100">we should take it slow.
 come back (live: 0.5s)[(either: &quot;next year&quot;, &quot;never&quot;, &quot;next week&quot;, &quot;n?xt week&quot;, &quot;next week&quot;, &quot;next &quot;+(lowercase: (weekday:)))].
 
-(live: 0.1s)[(if: time &gt; 10s)[(goto: &quot;404&quot;)(stop:)]]</tw-passagedata><tw-passagedata pid="10" name="greetings" tags="hi greetings" position="562,362" size="100,100">oh, hi!
+(live: 0.1s)[(if: time &gt; 10s)[(goto: &quot;404&quot;)(stop:)]]
+
+
+
+
+
+
+
+
+
+
+(live: 0.1s)[(if: time &gt; 5s)[(css: &quot;padding-left: 75%&quot;)[but come back.](stop:)]]</tw-passagedata><tw-passagedata pid="10" name="greetings" tags="hi greetings" position="562,362" size="100,100">oh, hi!
 &lt;i&gt;someone is early...&lt;/i&gt;
 how can i help you?
 
@@ -166,7 +180,7 @@ the exit is at the end of the opposite way from where you came from. (either: &q
 
 [[ok, bye...-&gt;theJourneyStarts]]
 
-(set: $lie to 0)</tw-passagedata><tw-passagedata pid="13" name="weDrank" tags="drink" position="233,285" size="100,100">wellim glad that you are here.iwasntexpectinganyonetobehonestat leat not yetyou found me!i told him to wait a few moredays
+(set: $lie to 0)</tw-passagedata><tw-passagedata pid="13" name="weDrank" tags="drink" position="233,285" size="100,100">wellim glad that you are here.iwasntexpectinganyonetobehonestat leat not yetyou found me!i told him to wait a few moredays(either: &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;sometimesicanhearmyselficanseemyselficanfeel&quot;, &quot;&quot;, &quot;&quot;)
 
 
 [[thank you-&gt;theVoid]]
@@ -186,7 +200,7 @@ the exit is at the end of the opposite way from where you came from. (either: &q
 
 (either: (goto: &quot;404&quot;), &quot;&quot;, &quot;&quot;)
 (set: $lie to $lie+1)(if: $lie is 10)[(set: $lie to $lie-2)](print: $lie) of 10 turns to the exit.</tw-passagedata><tw-passagedata pid="17" name="404" tags="404 lost" position="718,238" size="100,100">connection lost...
-(live: 0.1s)[(if: time &gt; 3s)[(goto-url: &quot;http://www.fix-your-computer-today.com/internet-connection.html&quot;)]]</tw-passagedata><tw-passagedata pid="18" name="theAnswer" tags="" position="717,107" size="100,100">leftrightrightrightleftrightlefleftleft
+(live: 0.1s)[(if: time &gt; 3s)[(goto-url: &quot;http://www.fix-your-computer-today.com/internet-connection.html&quot;)]]</tw-passagedata><tw-passagedata pid="18" name="theAnswer" tags="" position="717,107" size="100,100">(either: &quot;left&quot;, &quot;right&quot;)(either: &quot;left&quot;, &quot;right&quot;)(either: &quot;left&quot;, &quot;right&quot;)(either: &quot;left&quot;, &quot;right&quot;)(either: &quot;left&quot;, &quot;right&quot;)(either: &quot;left&quot;, &quot;right&quot;)(either: &quot;left&quot;, &quot;right&quot;)(either: &quot;left&quot;, &quot;right&quot;)(either: &quot;left&quot;, &quot;right&quot;)(either: &quot;left&quot;, &quot;right&quot;)
 
 (live: 0.1s)[(if: time &gt; 5s)[(goto: &quot;404&quot;)(stop:)]]</tw-passagedata></tw-storydata>
 
